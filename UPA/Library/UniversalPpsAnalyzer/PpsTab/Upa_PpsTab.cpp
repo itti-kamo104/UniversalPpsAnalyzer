@@ -25,6 +25,7 @@
 #include <Upa_PpsTab.h>
 #include <ui_Upa_PpsTab.h>
 #include <ui_Upa_PpsConfigScreen.h>
+#include <cmath>
 #include <ui_Upa_PpsThresholdScreen.h>
 
 Upa_PpsTs::Upa_PpsTs()
