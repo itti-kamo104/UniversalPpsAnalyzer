@@ -1,6 +1,6 @@
-**first install qt serialport and charts modules:**
+**first install qtbase, qt serialport and charts modules:**
 ```
-sudo apt-get install libqt5serialport5-dev libqt5charts5-dev
+sudo apt-get install qtbase5-dev libqt5serialport5-dev libqt5charts5-dev
 ```
 
 **to build run:**
