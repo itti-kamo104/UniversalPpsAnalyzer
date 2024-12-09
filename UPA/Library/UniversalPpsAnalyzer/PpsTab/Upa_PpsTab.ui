@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1374</width>
+    <width>1372</width>
     <height>774</height>
    </rect>
   </property>
@@ -264,11 +264,20 @@
      <height>711</height>
     </rect>
    </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>
    <widget class="QWidget" name="verticalLayoutWidget">
     <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
@@ -286,6 +295,9 @@
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget_2">
     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
      <item>
       <widget class="QLabel" name="PpsOffsetChartLabel">
        <property name="layoutDirection">
